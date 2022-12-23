@@ -24,9 +24,10 @@ const fetchMovieslistByGenres = (id, genres) => {
 const main = document.querySelector(".main");
 const makeCategoryElement = (category, data) => {
   main.innerHTML += `
+  
   <div class="movie-list">
     <button class="pre-btn">
-      <img src="img/prev.png" alt="previous button">
+      <img src="img/prev.svg" alt="previous button">
     </button>
 
     <h1 class="movie-category"> ${category.replace("_", " ")} </h1>
@@ -36,12 +37,14 @@ const makeCategoryElement = (category, data) => {
     </div>
 
     <button class="next-btn">
-      <img src="img/next.png" alt="next button">
+      <img src="img/next.svg" alt="next button">
     </button>
   </div>
   `
   makeCards(category, data);
 }
+
+
 
 const makeCards = (id, data) => {
   const movieContainer = document.getElementById(id)
