@@ -85,20 +85,31 @@ body {
 }
 
 .hero {
-  height: 60vh;
+  height: 90vh;
   display: flex;
   align-items: flex-end;
+  padding: 20px 0 20px 5vw;
 }
 
 .main-hero {
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
 
 .main {
   position: relative;
-  margin-top: 60px;
   width: 100%;
   padding: 20px 0 20px 5vw;
   color: #fff;
+}
+
+.header {
+  color: #fff;
+  background-image: url('https://lumiere-a.akamaihd.net/v1/images/avatar-banner-bra_bdbd9851.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
 }
 
 .play {
@@ -145,6 +156,7 @@ body {
   height: 250px;
   margin-top: 40px;
   position: relative;
+  //padding: 20px 0 20px 5vw;
 }
 
 .movie-category {
@@ -154,7 +166,8 @@ body {
   text-transform: capitalize;
 }
 
-.movie-container {
+.movie-container,
+.movie-trend {
   width: 100%;
   height: 250px;
   align-items: center;
@@ -164,7 +177,8 @@ body {
   display: flex;
 }
 
-.movie-container::-webkit-scrollbar {
+.movie-container::-webkit-scrollbar,
+.movie-trend::-webkit-scrollbar {
   display: none;
 }
 
@@ -209,12 +223,13 @@ body {
   background: rgba(24, 24, 24, 0.3);
   border: none;
   outline: none;
-  opacity: 0;
+  opacity: 1;
 }
 
 .pre-btn:hover,
 .next-btn:hover {
-  opacity: 1;
+  width: 4vw;
+  background: rgba(24, 24, 24, 0.7);
 }
 
 .pre-btn {

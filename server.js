@@ -11,6 +11,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(initialPath, "index.html"));
 });
 
+
 //start no servidor
 app.listen(port, () => {
   console.log(`Server start up on port ${port}`);

@@ -1,3 +1,5 @@
+
+
 fetch(genres_list_http + new URLSearchParams({
   api_key: api_key
 }))
@@ -7,6 +9,7 @@ fetch(genres_list_http + new URLSearchParams({
     fetchMovieslistByGenres(item.id, item.name)
   });
 });
+
 
 const fetchMovieslistByGenres = (id, genres) => {
   fetch(movie_genres_http + new URLSearchParams({
@@ -21,11 +24,13 @@ const fetchMovieslistByGenres = (id, genres) => {
   .catch(err => console.log(err))
 }
 
+
+
 const main = document.querySelector(".main");
 const makeCategoryElement = (category, data) => {
   main.innerHTML += `
-  
   <div class="movie-list">
+
     <button class="pre-btn">
       <img src="img/prev.svg" alt="previous button">
     </button>

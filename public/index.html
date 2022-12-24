@@ -17,7 +17,7 @@
       <img src="img/logo.svg" alt="logo" class="logo">
       <ul class="nav-list">
         <li> 
-          <a href="#"> Início </a> 
+          <a  href="#"> Início </a> 
         </li>
         <li> 
           <a href="#"> Séries </a> 
@@ -56,9 +56,8 @@
       </ul>
     </div>
   </nav>
-  
-  <header class="main">
-    <div class="hero">
+  <header class="header">
+    <div class="hero" id="hero">
       <div class="main-hero">
         <h1 class="heading"> Filme </h1>
         <p class="info"> descrição </p>
@@ -66,7 +65,21 @@
         <button class="more-info"> <img src="img/info-circle.svg" alt="info"> Mais informações </button>
       </div>
     </div>
-
+  </header>
+  <main class="main">
+    
+    <h2 class="movie-category"> Trending </h2>
+   <!-- <button class="pre" id="pre-btn">
+      <img src="img/prev.svg" alt="previous button">
+    </button>
+     <button id="next-btn">
+      <img src="img/next.svg" alt="next button">
+    </button>
+    -->
+    <div class="movie-trend" id="trend"> </div>
+   
+    
+    
     <!-- <div class="movie-list">
       <button class="pre-btn">
         <img src="img/prev.png" alt="previous button">
@@ -85,10 +98,11 @@
         <img src="img/next.png" alt="next button">
       </button>
     </div> -->
-  </header>
+  </main>
   
   <script src="js/api.js"></script>
   <script src="js/home.js"></script>
+  <script src="js/trending.js"></script>
   <script src="js/scroll.js"></script>
 </body>
 </html>
