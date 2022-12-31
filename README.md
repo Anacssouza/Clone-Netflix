@@ -15,8 +15,10 @@ Ainda em desenvolvimento
 
 <h2> 🚀 Projeto </h2>
 
-O projeto consiste em um clone da página de início da Netflix. Para o desenvolvimento dele foi utilizado Javascript, HTML, CSS, Node JS e 
+- O projeto consiste em um clone da página de início da Netflix. Para o desenvolvimento dele foi utilizado Javascript, HTML, CSS, Node JS e 
 consumida a API de filmes The Movie Database para puxar os filmes de cada categoria e filmes mais assistidos (trending).
+- Deploy: https://clone-netflix-topaz-two.vercel.app/
+
 
 <h2> ✨ Tecnologias utilizadas </h2>
 
