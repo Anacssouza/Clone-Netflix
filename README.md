@@ -1,5 +1,7 @@
 <h1 align="center"> Netflix Clone </h1>
 
+Ainda em desenvolvimento
+
 <h2> 💻 Telas </h2>
 
 <div align="center">
